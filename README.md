@@ -32,11 +32,11 @@ To set up the project and reproduce the data pipeline from scratch, follow these
    python run_queries.py
    
    ```
- 6. Execute all capstone pipline steps
+ 6. Execute all capstone pipeline steps:
     ```bash
-   python run_project.py
-   
-   ```
+    python run_project.py
+    ```
+
    Open `Instamart_copilot.ipynb` and run cells from top to bottom. The notebook calls the same modules used by the scripts.
 
    
@@ -90,4 +90,3 @@ These public repositories/documentation projects are useful for learning concept
 - The offline mock model is deterministic rule-based simulation, not a real language model.
 - The refund ledger is a local JSONL audit trail, not a real transaction system.
 - Production work would add access controls, secure secret management, monitoring, schema contracts, data lineage, model drift checks and human approval workflows.
-
