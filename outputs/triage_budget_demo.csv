@@ -1,0 +1,7 @@
+scenario_id,refund_calculated_inr,agent_action
+S1,128.25,REFUND
+S2,135.0,REFUND
+S3,1999.0,ESCALATE
+S4,0.0,DENIED
+S5,0.0,DENIED
+S6,0.0,NOT_FOUND
